@@ -1,0 +1,49 @@
+body {
+  background-color: #212b2b;
+
+  min-height: 4000px;
+  overflow: hidden;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  color: #fff;
+}
+.tour__head {
+  padding-top: 10vh;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.image-container {
+  height: 26.19rem;
+  position: relative;
+  width: 78%;
+  display: block;
+  margin: 0 auto;
+  margin-left: 12%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+canvas {
+  width: 100%;
+}
+
+/* Progress Bar */
+#progress {
+  position: absolute;
+  margin-top: 45px;
+  margin-left: 194px;
+  width: 76%;
+  height: 22px;
+}
+
+#bar {
+  background-color: #4287f5;
+  background-image: linear-gradient(to right, #a616c9, #16c9c9);
+
+  height: 100%;
+  transition: width 1s ease;
+}
